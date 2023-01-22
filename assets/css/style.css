@@ -972,12 +972,12 @@ ol li {
     margin: .25em 0 0 2em; /* Add some left margin for inner lists */
 }
 #blog-section{
-  background: linear-gradient(224deg, #35967d, #28777f);
+  /* background: linear-gradient(224deg, #35967d, #28777f);
 background-size: 400% 400%;
 
 -webkit-animation: AnimationName 30s ease infinite;
 -moz-animation: AnimationName 30s ease infinite;
-animation: AnimationName 30s ease infinite;
+animation: AnimationName 30s ease infinite; */
 
 @-webkit-keyframes AnimationName {
     0%{background-position:0% 94%}
@@ -998,10 +998,11 @@ animation: AnimationName 30s ease infinite;
 /*# sourceMappingURL=style.css.map */
 #gradient
 {
-  width: 100%;
+  background-color: #505050;
+  /* width: 100%;
   height: auto;
   padding: 0px;
-  margin: 0px;
+  margin: 0px; */
 }
 
 .special-btn {
